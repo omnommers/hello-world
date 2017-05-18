@@ -1,0 +1,11 @@
+def game_options():
+	print("head North")
+	print('exit')
+	user_choice = input('what option')
+	if user_choice == "exit":
+		exit
+	elif user_choice == "north":
+		print("you head north")
+	else:
+		print("DUDE, that's not an option")
+		game_options()
